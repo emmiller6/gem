@@ -1,9 +1,6 @@
-@import 'variables.scss';
-
 .dk-form-title {
   color: black;
-  font-size: 32px;
-}
+  font-size: 32px; }
 
 .dk-header {
   height: 100px;
@@ -11,34 +8,27 @@
   color: black;
   font-size: 32px;
   border-bottom: 1px solid #767676;
-  text-align: center;
-}
+  text-align: center; }
 
 .dk-title {
-  font-size: 36px;
-}
+  font-size: 36px; }
 
 .dk-form-sub-title {
   color: black;
-  font-size: 26px;
-}
+  font-size: 26px; }
 
 .dk-body-copy {
   color: black;
-  font-size: 14px;
-}
+  font-size: 14px; }
 
 .dk-body-table-title {
   font-size: 14px;
-  color: $dk--body-title;
-}
+  color: #666666; }
 
 .dk-clickable-action {
   font-size: 14px;
-  color: $dk-primary;
-}
+  color: #3942C1; }
 
 .dk-link {
   font-size: 14px;
-  color: $dk-primary;
-}
+  color: #3942C1; }

@@ -1,10 +1,16 @@
 import { combineReducers } from 'redux';
-import consortia from './redux/consortia/reducer';
+import pricesReducer, * as fromPrices from './redux/prices/reducer';
 
 export default combineReducers({
-	consortia,
+	prices: pricesReducer,
 });
 
 // -----------
 // selectors
-export const getConsortiaStateFromState = (state) => state.consortia;
+export const getPricesStateFromState = (state) => state.prices;
+
+export const getBitcoinPriceFromPricesState = (state) =>
+	fromPrices.findBitcoinPrice(getPricesStateFromState(state));
+
+export const getEtherPriceFromPricesState = (state) =>
+	fromPrices.findEtherPrice(getPricesStateFromState(state));

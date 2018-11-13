@@ -1,0 +1,20 @@
+.transfer-section {
+    padding-top: 24px;
+}
+
+.transfer-btn {
+    float: right;
+}
+
+.transfer-submitted {
+    color: mediumseagreen;
+}
+
+.form-input {
+    padding-left: 8px;
+    width: 100%;
+}
+
+.form-input-group {
+    width: 100%;
+}

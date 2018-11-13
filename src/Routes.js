@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Router } from 'react-router';
 import Dashboard from './scenes/Dashboard';
-
 import { history } from './store';
 
 const Routes = () => {

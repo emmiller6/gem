@@ -1,5 +1,5 @@
-import * as consortia from './endpoints/consortia';
+import * as coinbase from './endpoints/coinbase';
 
 export default {
-	consortia,
+	coinbase,
 };

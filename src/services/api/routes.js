@@ -1,5 +1,5 @@
-const KALEIDO_BASE_URL = 'https://console.kaleido.io';
+const COINBASE_URL = 'https://api.coinbase.com';
 
 export const ROUTES = {
-	CONSORTIA: `${KALEIDO_BASE_URL}/api/v1/consortia`,
+	COINBASE_PRICES: `${COINBASE_URL}/v2/prices`,
 };
